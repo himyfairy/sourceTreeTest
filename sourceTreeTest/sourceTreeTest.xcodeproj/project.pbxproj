@@ -13,6 +13,7 @@
 		373F62181F6A659F00110DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373F62161F6A659F00110DDF /* Main.storyboard */; };
 		373F621A1F6A659F00110DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373F62191F6A659F00110DDF /* Assets.xcassets */; };
 		373F621D1F6A659F00110DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373F621B1F6A659F00110DDF /* LaunchScreen.storyboard */; };
+		373F62261F6A797D00110DDF /* cocoapod.m in Sources */ = {isa = PBXBuildFile; fileRef = 373F62251F6A797D00110DDF /* cocoapod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		373F62191F6A659F00110DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		373F621C1F6A659F00110DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		373F621E1F6A659F00110DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373F62241F6A797D00110DDF /* cocoapod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocoapod.h; sourceTree = "<group>"; };
+		373F62251F6A797D00110DDF /* cocoapod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cocoapod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				373F621B1F6A659F00110DDF /* LaunchScreen.storyboard */,
 				373F621E1F6A659F00110DDF /* Info.plist */,
 				373F620D1F6A659F00110DDF /* Supporting Files */,
+				373F62241F6A797D00110DDF /* cocoapod.h */,
+				373F62251F6A797D00110DDF /* cocoapod.m */,
 			);
 			path = sourceTreeTest;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				373F62151F6A659F00110DDF /* ViewController.m in Sources */,
+				373F62261F6A797D00110DDF /* cocoapod.m in Sources */,
 				373F62121F6A659F00110DDF /* AppDelegate.m in Sources */,
 				373F620F1F6A659F00110DDF /* main.m in Sources */,
 			);
@@ -314,6 +320,7 @@
 				373F62231F6A659F00110DDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
