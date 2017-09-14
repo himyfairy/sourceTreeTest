@@ -30,6 +30,11 @@
         
     }];
     [task resume];
+    
+    NSLog(@"444");
+    NSLog(@"555");
+    NSLog(@"666");
+    NSLog(@"777");
 }
 
 
