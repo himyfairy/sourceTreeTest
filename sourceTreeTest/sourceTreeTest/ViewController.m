@@ -19,6 +19,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 
     NSLog(@"this is branch test");
+    
+    NSLog(@"111");
+    NSLog(@"222");
+    NSLog(@"333");
 
 }
 
