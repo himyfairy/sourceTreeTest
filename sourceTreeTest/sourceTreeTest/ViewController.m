@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <AFNetworking.h>
 
 @interface ViewController ()
 
@@ -24,6 +25,11 @@
     NSLog(@"222");
     NSLog(@"333");
 
+    AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+    NSURLSessionDataTask *task = [manager dataTaskWithRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.baidu.com"] cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:15.0] completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
+        
+    }];
+    [task resume];
 }
 
 
