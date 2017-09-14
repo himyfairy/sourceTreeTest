@@ -17,13 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"a - 第一次修改");
+    
+    NSLog(@"a - 第三次修改");
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    NSLog(@"a - 第二次修改");
 }
 
+- (void)test {
+    
+}
 
 @end
