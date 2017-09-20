@@ -39,6 +39,7 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     NSLog(@"ql===");
+    NSLog(@"xxb===");
     
 }
 
