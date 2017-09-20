@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <AFNetworking.h>
+#import "QLTest.h"
 
 @interface ViewController ()
 
@@ -35,6 +36,9 @@
     NSLog(@"555");
     NSLog(@"666");
     NSLog(@"777");
+    
+    QLTest *test = [[QLTest alloc] init];
+    [test test];
 }
 
 
