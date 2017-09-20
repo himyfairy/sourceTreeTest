@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <AFNetworking.h>
 #import "QLTest.h"
+#import "QLCar.h"
 
 @interface ViewController ()
 
@@ -18,13 +19,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-
-    NSLog(@"this is branch test");
-    
-    NSLog(@"111");
-    NSLog(@"222");
-    NSLog(@"333");
 
     AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
     NSURLSessionDataTask *task = [manager dataTaskWithRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.baidu.com"] cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:15.0] completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
@@ -32,21 +26,20 @@
     }];
     [task resume];
     
-    NSLog(@"444");
-    NSLog(@"555");
-    NSLog(@"666");
-    NSLog(@"777");
-    
     QLTest *test = [[QLTest alloc] init];
     [test test];
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    QLCar *car = [[QLCar alloc] init];
+    car.name = @"Mercedes";
+    [car run];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
     
-    NSLog(@"a - 第二次修改");
 }
 
 - (void)test {

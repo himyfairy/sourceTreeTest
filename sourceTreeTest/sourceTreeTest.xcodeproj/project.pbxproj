@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		10F49BB51D5A3FB90CD93690 /* libPods-sourceTreeTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCDFC8D1005B041D15376D9 /* libPods-sourceTreeTest.a */; };
 		37339A9F1F7256DB0005A22B /* QLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 37339A9E1F7256DB0005A22B /* QLTest.m */; };
+		37339AA31F7257FD0005A22B /* QLCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 37339AA21F7257FD0005A22B /* QLCar.m */; };
 		373F620F1F6A659F00110DDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 373F620E1F6A659F00110DDF /* main.m */; };
 		373F62121F6A659F00110DDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 373F62111F6A659F00110DDF /* AppDelegate.m */; };
 		373F62151F6A659F00110DDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373F62141F6A659F00110DDF /* ViewController.m */; };
@@ -23,6 +24,8 @@
 		259E92594E3636B694D738C7 /* Pods-sourceTreeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sourceTreeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sourceTreeTest/Pods-sourceTreeTest.debug.xcconfig"; sourceTree = "<group>"; };
 		37339A9D1F7256DB0005A22B /* QLTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLTest.h; sourceTree = "<group>"; };
 		37339A9E1F7256DB0005A22B /* QLTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLTest.m; sourceTree = "<group>"; };
+		37339AA11F7257FD0005A22B /* QLCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLCar.h; sourceTree = "<group>"; };
+		37339AA21F7257FD0005A22B /* QLCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLCar.m; sourceTree = "<group>"; };
 		373F620A1F6A659F00110DDF /* sourceTreeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sourceTreeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		373F620E1F6A659F00110DDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		373F62101F6A659F00110DDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,6 +62,15 @@
 			name = test;
 			sourceTree = "<group>";
 		};
+		37339AA01F7257E80005A22B /* test222 */ = {
+			isa = PBXGroup;
+			children = (
+				37339AA11F7257FD0005A22B /* QLCar.h */,
+				37339AA21F7257FD0005A22B /* QLCar.m */,
+			);
+			name = test222;
+			sourceTree = "<group>";
+		};
 		373F62011F6A659F00110DDF = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +92,7 @@
 		373F620C1F6A659F00110DDF /* sourceTreeTest */ = {
 			isa = PBXGroup;
 			children = (
+				37339AA01F7257E80005A22B /* test222 */,
 				37339A9C1F7256B40005A22B /* test */,
 				373F62101F6A659F00110DDF /* AppDelegate.h */,
 				373F62111F6A659F00110DDF /* AppDelegate.m */,
@@ -247,6 +260,7 @@
 				373F62151F6A659F00110DDF /* ViewController.m in Sources */,
 				373F62261F6A797D00110DDF /* cocoapod.m in Sources */,
 				373F62121F6A659F00110DDF /* AppDelegate.m in Sources */,
+				37339AA31F7257FD0005A22B /* QLCar.m in Sources */,
 				373F620F1F6A659F00110DDF /* main.m in Sources */,
 				37339A9F1F7256DB0005A22B /* QLTest.m in Sources */,
 			);
