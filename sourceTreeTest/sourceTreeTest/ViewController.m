@@ -25,8 +25,9 @@
     }];
     [task resume];
     
-//    QLTest *test = [[QLTest alloc] init];
-//    [test test];
+    QLTest *test = [[QLTest alloc] init];
+    test.testName = @"daiwenjun";
+    [test test];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
