@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import <AFNetworking.h>
-#import "QLTest.h"
 #import "QLCar.h"
 
 @interface ViewController ()
@@ -26,8 +25,8 @@
     }];
     [task resume];
     
-    QLTest *test = [[QLTest alloc] init];
-    [test test];
+//    QLTest *test = [[QLTest alloc] init];
+//    [test test];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
