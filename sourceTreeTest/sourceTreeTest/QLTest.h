@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface QLTest : NSObject
+@property (nonatomic, copy) NSString *testName;
 - (void)test;
 @end

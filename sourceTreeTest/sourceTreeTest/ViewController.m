@@ -27,6 +27,7 @@
     [task resume];
     
     QLTest *test = [[QLTest alloc] init];
+    test.testName = @"daiwenjun";
     [test test];
 }
 
